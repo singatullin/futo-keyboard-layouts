@@ -1,19 +1,13 @@
-name: Kyrgyz
+name: Кыргызча
 languages: ky tyv
 minimumFunctionalKeyWidth: 0.0
 rows:
-  - letters:
-    - { type: base, spec: "ё", attributes: { width: Grow } }
-    - { type: base, spec: "ү", attributes: { width: Grow } }
-    - { type: base, spec: "ң", attributes: { width: Grow } }
-    - { type: base, spec: "ө", attributes: { width: Grow } }
-    - { type: base, spec: "ъ", attributes: { width: Grow } }
   - letters:
     - й
     - ц
     - ['у', 'ү']
     - к
-    - е
+    - ['е', 'ё']
     - ['н', 'ң']
     - г
     - ш
@@ -32,4 +26,13 @@ rows:
     - д
     - ж
     - э
-  - letters: я ч с м и т ь б ю
+  - letters:
+    - я
+    - ч
+    - с
+    - м
+    - и
+    - т
+    - ['ь', 'ъ']
+    - б
+    - ю
